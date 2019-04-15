@@ -14,7 +14,7 @@ For training on a new domain, first run 'evaluate.py' on the training set of the
 
 Then, initialize the batch normalization parameters of the new domain with those of the closest domain and finetune them with 'train_new_domain.py'. In this training, the convolutional weights are not updated.
 
-Set the paths for your code and data files in 'config/system.py' and other training hyperparameters in 'experiments/unet2D_adaptive_bn.py'.
+Set the paths for your code and data files in 'config/system.py' and set training hyperparameters in 'experiments/unet2D_adaptive_bn.py'.
 
 # Acknowledgements
 Several parts of the code were taken from https://github.com/baumgach/acdc_segmenter and edited to suit this application.
