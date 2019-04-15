@@ -12,4 +12,4 @@ For training the initial domains, run 'train_initial_domains.py'. This trains th
 
 For training on a new domain, first run 'evaluate.py' on the training set of the new domain and identify the closest already learned domain.
 
-Then, initialize the batch normalization parameters of the new domain with those of the closest domain and finetune them with the 'train_new_domain.py' file. In this training, the convolutional weights are not updated.
+Then, initialize the batch normalization parameters of the new domain with those of the closest domain and finetune them with 'train_new_domain.py'. In this training, the convolutional weights are not updated.
