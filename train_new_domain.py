@@ -333,7 +333,7 @@ def run_training():
                     # ===========================
                     # Evaluate against the validation set - all domains
                     # ===========================
-                    logging.info('Validation Data Eval1:')
+                    logging.info('Validation Data Eval:')
                     [val_loss, val_dice] = do_eval(sess,
                                                    eval_loss,
                                                    images_pl,
