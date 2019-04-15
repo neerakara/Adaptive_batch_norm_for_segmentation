@@ -5,7 +5,7 @@ This is a Tensorflow implementation for the experiments described in this articl
 
 # Requirements
 
-The code has been tested with tensorflow 1.9.0 and python 3.6.6
+The code has been tested with tensorflow 1.9.0 and python 3.6.6.
 
 # Running the experiments
 For training the initial domains, run 'train_initial_domains.py'. This trains the shared convolutional weights as well as the domain-specific batch normalization weights.
