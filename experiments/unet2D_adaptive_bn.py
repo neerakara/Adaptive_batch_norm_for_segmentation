@@ -19,7 +19,7 @@ nlabels = 15
 training_type = 'Initial' # 'Initial' or 'New'
 if training_type is 'Initial':
     max_epochs = 10000
-    experiment_name = 'Intial_training' 
+    experiment_name = 'Initial_training' 
 if training_type is 'New':
     max_epochs = 5000
     experiment_name = 'New_training' 
