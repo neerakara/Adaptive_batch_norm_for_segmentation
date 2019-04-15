@@ -1,6 +1,6 @@
 # Adaptive Batch Normalization for MRI Segmentation
 
-This is a Tensorflow implementation for the experiments described in this article: "A Lifelong Learning Approach to Brain MR Segmentation Across Scanners and Protocols" 
+This is an implementation for the experiments described in this article: "A Lifelong Learning Approach to Brain MR Segmentation Across Scanners and Protocols" 
 (https://link.springer.com/chapter/10.1007/978-3-030-00928-1_54)
 
 # Requirements
