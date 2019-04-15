@@ -14,9 +14,14 @@ image_size = (None, None)
 nlabels = 15
 
 # ======================================================================
-# training settings
+# IMPORTANT: Before running 'train_initial_domains.py' set training_type to 'Initial'
+# IMPORTANT: Before running 'train_new_domains.py' set training_type to 'New'
 # ======================================================================
 training_type = 'Initial' # 'Initial' or 'New'
+
+# ======================================================================
+# training settings
+# ======================================================================
 if training_type is 'Initial':
     max_epochs = 10000
     experiment_name = 'Initial_training' 
@@ -41,7 +46,7 @@ debug = True
 # iteration number to be loaded after training the model (setting this to zero will load the model with the best validation dice score)
 load_this_iter = 0
 batch_size_test = 1
-test_dataset = 'HCP_T1' # 'HCP_T1' or 'HCP_T2' 'CALTECH'
+test_dataset = 'CALTECH' # 'HCP_T1' or 'HCP_T2' or 'CALTECH'
 save_qualitative_results = False
 if test_dataset is 'HCP_T1':
     image_depth = 311
