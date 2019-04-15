@@ -8,8 +8,8 @@ This is a Tensorflow implementation for the experiments described in this articl
 The code has been tested with tensorflow 1.9.0 and python 3.6.6
 
 # Running the experiments
-For training the initial domains, run the 'train_initial_domains.py'. This trains the shared convolutional weights as well as the domain-specific batch normalization weights.
+For training the initial domains, run 'train_initial_domains.py'. This trains the shared convolutional weights as well as the domain-specific batch normalization weights.
 
-For training on a new domain, first run the 'evaluate.py' on the training set of the new domain and identify the closest already learned domain.
+For training on a new domain, first run 'evaluate.py' on the training set of the new domain and identify the closest already learned domain.
 
-Then, initialize the batch normalization parameters of the new domain with those of the closest domain and finetune them with the 'train_new_domain.py' file.
+Then, initialize the batch normalization parameters of the new domain with those of the closest domain and finetune them with the 'train_new_domain.py' file. In this training, the convolutional weights are not updated.
