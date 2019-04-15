@@ -17,4 +17,4 @@ Then, initialize the batch normalization parameters of the new domain with those
 Set the paths for your code and data files in 'config/system.py' and set training hyperparameters in 'experiments/unet2D_adaptive_bn.py'.
 
 # Acknowledgements
-Several parts of the code were taken from https://github.com/baumgach/acdc_segmenter and edited to suit this application.
+Several parts of the code were taken from https://github.com/baumgach/acdc_segmenter and modified to suit this application.
